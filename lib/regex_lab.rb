@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  word.to_s.scan(/\A[aeiou]/).size > 0
+  word.to_s.scan(/\A[aeiou]/).size
 
 end
 
