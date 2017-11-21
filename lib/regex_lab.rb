@@ -1,12 +1,5 @@
 def starts_with_a_vowel?(word)
-  word_array = word.split (/ /)
-  word_array2 = []
-  word_array.each do |i|
-    if i.scan(/^[aeiou]/).size != 0
-      word_array2 << i
-    end
-  end
-  word_array2.join(" ").scan(/^[aeiou]/).size > 0
+  word.scan(/\A[aeiou]/)
 
 end
 
