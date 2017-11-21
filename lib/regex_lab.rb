@@ -40,4 +40,3 @@ end
 def valid_phone_number?(phone)
   phone.scan(/[0-9]]{10}/).size > 0
 end
-
